@@ -43,25 +43,16 @@ ul.menus {
 .menu {
     color: var(--NAVY-BLUE)
 }
-a.menu.studio{
+a.menu.studio,{
     color: var(--IRIS);
 }
-a.menu.studio:hover {
+a.menu.studio:hover,
+a.portfolio:hover,
+a.contact:hover,
+a.email:hover,
+a.tel:hover {
     color: var(--BLUE);
 }
-a.menu.portfolio:hover {
-    color: var(--BLUE);
-}
-a.menu.contact:hover {
-    color: var(--BLUE);
-}
-a.menu.email:hover {
-    color: var(--BLUE);
-}
-a.menu.tel:hover{
-    color: var(--BLUE);
-}
-
 
 /* MAIN   */
 /* EFFECTIVE SULOTION SECTION 1 */
@@ -96,7 +87,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: var(--RED);
+    background-color: var(--RED);
 }
 
 /* SECTION 2  Benefits and Goal*/
