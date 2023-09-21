@@ -2,6 +2,8 @@
     --IRIS: #4D5AE5;
     --NAVY-BLUE: #2E2F42;
     --CLOUD: #F4F4FD;
+    --BLUE: #0000FF;
+    --RED: #FF0000;
 }
 
 
@@ -21,8 +23,13 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
+
+.logo:hover {
+    color: var(--BLUE);
+}
+
 span {
-    color:#4D5AE5;
+    color: var(--IRIS);
 }
 
 ul.menus {
@@ -39,6 +46,22 @@ ul.menus {
 a.menu.studio{
     color: var(--IRIS);
 }
+a.menu.studio:hover {
+    color: var(--BLUE);
+}
+a.menu.portfolio:hover {
+    color: var(--BLUE);
+}
+a.menu.contact:hover {
+    color: var(--BLUE);
+}
+a.menu.email:hover {
+    color: var(--BLUE);
+}
+a.menu.tel:hover{
+    color: var(--BLUE);
+}
+
 
 /* MAIN   */
 /* EFFECTIVE SULOTION SECTION 1 */
@@ -50,7 +73,7 @@ section.sec1 {
     flex-shrink: 0;
 }
 h1 {
-    color: var(--WHITE, #FFF);
+    color: var(--CLOUD);
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
@@ -60,7 +83,7 @@ h1 {
     letter-spacing: 1.12px;
 }
 button {
-    color: var(--WHITE,) #FFF;
+    color: var(--CLOUD);
     background-color: var(--IRIS);
     font-family: Roboto;
     font-size: 16px;
@@ -70,6 +93,10 @@ button {
     letter-spacing: 0.64px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+button:hover {
+    color: var(--RED);
 }
 
 /* SECTION 2  Benefits and Goal*/
@@ -129,7 +156,7 @@ footer {
 } 
 
 .logofooter {
-    color: var(--CLOUD, #F4F4FD);
+    color: var(--CLOUD);
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -142,4 +169,7 @@ footer {
 
 p.bottom {
     color: var(--CLOUD);
+}
+a.logofooter:hover {
+    color: var(--BLUE);
 }
