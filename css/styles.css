@@ -43,7 +43,7 @@ ul.menus {
 .menu {
     color: var(--NAVY-BLUE)
 }
-a.menu.studio,{
+a.menu.studio{
     color: var(--IRIS);
 }
 a.menu.studio:hover,
@@ -99,7 +99,7 @@ button:hover {
 }
 
 /* SECTION 3  Whst are we doing*/
-h2.Wedo {
+h2 {
     color: var(--NAVY-BLUE);
     text-align: center;
     font-family: Roboto;
@@ -120,19 +120,7 @@ h2.Wedo {
 }
 
 /* SECTION 4 Our Team*/
-h2.Ourteam {
-    color: var(--NAVY-BLUE);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px; /* 111.111% */
-    letter-spacing: 0.72px;
-    text-transform: capitalize;  
-    width: 1440px;
-    height: 200px;
-}
+
 .team {
     list-style-type: none;
     margin: 0;
